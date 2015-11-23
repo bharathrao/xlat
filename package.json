@@ -1,0 +1,19 @@
+{
+  "name": "xlat",
+  "version": "1.0.0",
+  "description": "Translate object from one set of keys to another",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathrao/xlat.git"
+  },
+  "author": "https://github.com/bharathrao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bharathrao/xlat/issues"
+  },
+  "homepage": "https://github.com/bharathrao/xlat#readme"
+}

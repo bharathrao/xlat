@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/bharathrao/xlat/issues"
   },
-  "homepage": "https://github.com/bharathrao/xlat#readme"
+  "homepage": "https://github.com/bharathrao/xlat#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "fixtures.js": "^2.1.0"
+  }
 }

@@ -1,0 +1,44 @@
+{
+  "dictionary": {
+    "transaction": ["tx", "trans"],
+    "address": ["addrText", "addr"],
+    "price": ["cost"]
+  },
+  "single": {
+    "source": {
+      "trans": { "id": 2},
+      "addr": "12345",
+      "cost": 300
+    },
+    "result": {
+      "transaction": { "id": 2},
+      "address": "12345",
+      "price": 300
+    }
+  },
+  "array":
+    {
+      "source": [
+        {
+          "trans": { "id": 2},
+          "addr": "12345",
+          "price": 300
+        },
+        {
+          "tx": { "id": 3},
+          "addrText": "7890"
+        }
+      ],
+      "result": [
+        {
+          "transaction": { "id": 2},
+          "address": "12345",
+          "price": 300
+        },
+        {
+          "transaction": { "id": 3},
+          "address": "7890"
+        }
+      ]
+    }
+}

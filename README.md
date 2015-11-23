@@ -21,13 +21,13 @@ var b = {
 
 var xlat = require('xlat')(canonical)
 
-console.log(xlat(a))
+console.log(xlat.translate(a))
 
-console.log(xlat(a, [a, b]))
+console.log(xlat.translate(a, [a, b]))
 
 // lets update dictionary
 var addendum = { 'send': ['transmit'] }
 xlat.index(addendum)
 
-console.log(xlat(a))
+console.log(xlat.translate(a))
 ```
